@@ -1,0 +1,248 @@
+/* header */
+.title {
+    text-align: center;
+    margin-top: 50px;
+}
+
+.title h1 {
+    font-size: 40px;
+    font-weight: 700;
+    color: #000;
+}
+
+/* search results */
+.results {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.results .item {
+    border: 1px solid #DEDEDE;
+    width: 100%;
+    padding: 20px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.results .item:not(:last-child) {
+    margin-bottom: 20px;
+}
+
+.results .item .main-content > .info {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.results .item .main-content {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.results .item .info .left .flight-number {
+    font-size: 26px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 6px;
+}
+
+.results .item .info .left .route {
+    font-size: 16px;
+    font-weight: 400;
+    color: #909090;
+}
+
+.results .item .info .content .airports {
+    font-size: 18px;
+    font-weight: 500;
+    color: #000;
+    margin-bottom: 6px;
+}
+
+.results .item .info .content .date {
+    font-size: 16px;
+    font-weight: 400;
+    color: #909090;
+}
+
+.results .item .info .content .date span {
+    font-weight: 700;
+    color: #000;
+}
+
+.results .item .right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.results .item .right .price {
+    font-size: 26px;
+    font-weight: 700;
+    color: #000;
+}
+
+.results .item .right .book {
+    background: #35AFF4;
+    border-radius: 10px;
+    height: 48px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+
+.results .item .right .book:hover {
+    opacity: 0.7;
+}
+
+.results .item .additional-content {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.results .item .additional-content .airplane {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.results .item .additional-content .airplane img {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.results .item .additional-content .airplane .info {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: baseline;
+}
+
+.results .item .additional-content .airplane .label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #909090;
+}
+
+.results .item .additional-content .airplane .value {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+.results .item .additional-content .chance {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.results .item .additional-content .chance .circle {
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+}
+
+.results .item .additional-content .chance .green {
+    background: #45a145;
+}
+
+.results .item .additional-content .chance .red {
+    background: #ba3535;
+}
+
+.results .item .additional-content .chance .yellow {
+    background: #b4b41f;
+}
+
+.results .item .additional-content .chance .info {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    align-items: baseline;
+}
+
+.results .item .additional-content .chance .label {
+    font-size: 14px;
+    font-weight: 500;
+    color: #909090;
+}
+
+.results .item .additional-content .chance .value {
+    font-size: 16px;
+    font-weight: 700;
+    color: #000;
+}
+
+/* search */
+.search-block2 {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.search-block2 h1 {
+    font-size: 34px;
+    margin-bottom: 20px;
+}
+
+.search-block2 button {
+    width: 30%;
+    background: #35AFF4;
+    border-radius: 20px;
+    height: 48px;
+    border: none;
+    outline: none;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 600;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.search-block2 button:hover {
+    opacity: 0.7;
+}
+
+.sort {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.sort .item {
+    border: 1px solid #DEDEDE;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 16px;
+    padding-left: 16px;
+    cursor: pointer;
+}
+
+.sort .selected {
+    color: #fff;
+    background: #35AFF4;
+}

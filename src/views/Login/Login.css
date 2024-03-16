@@ -1,0 +1,100 @@
+
+.login-block {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    margin-top: 70px;
+}
+
+.login-block h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 20px;
+
+    text-align: center;
+}
+
+.login-block input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.login-block button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #35AFF4;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+}
+
+.login-block button:hover {
+    opacity: 0.7;
+}
+
+.login-block p {
+    margin-bottom: 6px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #909090;
+}
+
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    header .menu ul {
+        display: none;
+    }
+
+    header .menu ul.active {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        position: absolute;
+        top: 60px;
+        right: 10px;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    header .menu ul li a {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 500px) {
+    .login-block {
+        padding: 10px;
+    }
+
+    .login-block h1 {
+        font-size: 20px;
+    }
+
+    .login-block input {
+        padding: 8px;
+    }
+
+    .login-block button {
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .login-block p {
+        font-size: 14px;
+    }
+}

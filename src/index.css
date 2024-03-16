@@ -1,0 +1,20 @@
+/* importing styles */
+@import url("./assets/fonts/Montserrat/montserrat.css");
+
+/* basic styling to all elements */
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* standart changes for body */
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* reseting margins and paddings for all headings and paragraphs */
+h1, h2, h3, p {
+    margin: 0;
+    padding: 0;
+}
